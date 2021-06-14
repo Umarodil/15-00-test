@@ -66,3 +66,33 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
+.umarodil__logo{
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    justify-content:space-around;
+    color: aqua;
+    background: chartreuse;
+}
+.umarodil__logo:hover{
+    background: yellow;
+}
+.umarodil__list{
+color: blue;
+display: flex;
+justify-content: space-around;
+background: teal;
+}
+.umarodil__list:hover :nth-child(2){
+background: tomato;
+}
+
+.umarodil__text{
+margin: 20px 0;
+color: brown;
+display: flex;
+background:blueviolet;
+}
+.umarodil__text:hover{
+color:black;
+}
