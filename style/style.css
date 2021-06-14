@@ -66,3 +66,40 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
+.contact__title{
+   text-align: center;
+    
+}
+.contact__reklama{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.reklama__img{
+    width: 251px; 
+}
+.reklama__span{
+    background: #EB5757;
+    border-radius: 30px;
+    width: 147px;
+    padding: 15px 5px;
+}
+.reklama__button{
+    font-size: 25px;
+line-height: 31px;
+text-align: center;
+color: #FFFFFF;
+width: 160px;
+}
+.contact{
+    background: url(../image/Rectangle\ 3.png)no-repeat center/cover;
+}
+.contact__title h1{
+    font-size: 60px;
+    line-height: 109%;
+    color: #EABF3C;
+}
+.contact__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
