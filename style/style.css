@@ -66,6 +66,115 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
+.contact__title{
+   text-align: center;
+    
+}
+.contact__reklama{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.reklama__img{
+    width: 251px; 
+}
+.reklama__span{
+    background: #EB5757;
+    border-radius: 30px;
+    width: 147px;
+    padding: 15px 5px;
+}
+.reklama__button{
+    font-size: 25px;
+line-height: 31px;
+text-align: center;
+color: #FFFFFF;
+width: 160px;
+}
+.contact{
+    background: url(../image/Rectangle\ 3.png)no-repeat center/cover;
+}
+.contact__title h1{
+    font-size: 60px;
+    line-height: 109%;
+    color: #EABF3C;
+}
+.contact__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project{
+background-color: bisque;
+}
+.projects_title{
+     max-width: 100px;
+     margin-bottom: 100px;
+     margin-right: 700px;
+
+
+.service-text{
+    margin-top: 20px;
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #60C1BD;
+}
+
+.service-title{
+    margin-bottom: 100px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 64px;
+    text-align: center;
+    color: #284854;
+}
+
+.service-card{
+ display: flex;
+ align-items: center;
+}
+
+.service-card:nth-last-child(2){
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card-txt{
+    margin-left: 200px;
+    margin-bottom: 20px;
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+
+color: #798B56;
+}
+
+.card-title{
+    margin-left: 200px;
+    margin-bottom: 20px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+
+color: #8BC441;
+}
+.card-text{
+    margin-left: 200px;
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 29px;
+/* or 192% */
+color: #284854;
 .about{
     background: #ccc;
 }
@@ -115,3 +224,4 @@ body {
     text-decoration: none;
     background-color: #3498db;
 }
+
