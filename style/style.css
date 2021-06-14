@@ -66,7 +66,6 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
-
 .contact__title{
    text-align: center;
     
@@ -176,4 +175,53 @@ font-size: 15px;
 line-height: 29px;
 /* or 192% */
 color: #284854;
+.about{
+    background: #ccc;
+}
+.about-title{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    color: #16a085;
+}
+
+.about-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.about-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    padding: 30px;
+    background-color: #fff;
+}
+.about-link{
+    text-decoration: none;
+}
+.about-link i{
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about-cards h1{
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 22px;
+    color: #27ae60;
+}
+.about-cards p{
+    font-size: 16px;
+    color: #ccc;
+}
+.about__link{
+    margin-top: 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+    background-color: #3498db;
+}
 
