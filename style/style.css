@@ -66,6 +66,14 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
+.project{
+background-color: bisque;
+}
+.projects_title{
+     max-width: 100px;
+     margin-bottom: 100px;
+     margin-right: 700px;
+=======
 
 .service-text{
     margin-top: 20px;
@@ -120,7 +128,6 @@ line-height: 47px;
 
 color: #8BC441;
 }
-
 .card-text{
     margin-left: 200px;
     font-family: Nunito Sans;
@@ -129,7 +136,4 @@ font-weight: normal;
 font-size: 15px;
 line-height: 29px;
 /* or 192% */
-
-
 color: #284854;
-}
