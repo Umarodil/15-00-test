@@ -66,3 +66,11 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
+.project{
+background-color: bisque;
+}
+.projects_title{
+     max-width: 100px;
+     margin-bottom: 100px;
+     margin-right: 700px;
+}
